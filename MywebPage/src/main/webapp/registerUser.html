@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Register User</h1>
+    <form method="post" action="register">
+        First Name : <input type="text" name="fname" id="fnm"><br>
+        Last Name : <input type="text" name="lname" id="lnm"><br>
+        user Name : <input type="text" name="uname" id="unm"><br>
+        Password : <input type="password" name="passwd" id="pnm"><br>
+        Gender : <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label><br>
+        Skills: <input type="checkbox" name="skills" id="java" value="java"><label for="java">JAVA</label>
+        <input type="checkbox" name="skills" id="C++" value="C++"><label for="C++">C++</label>
+        <input type="checkbox" name="skills" id="python" value="python"><label for="python">Python</label>
+        <input type="checkbox" name="skills" id="perl" value="perl"><label for="perl">Perl</label>
+        <input type="checkbox" name="skills" id="Ruby" value="ruby"><label for="ruby">Ruby</label>
+        <input type="checkbox" name="skills" id="C#" value="C#"><label for="C#">C#</label><br>
+        Degree: <input type="radio" name="degree" id="BE" value="BE"><label for="BE">BE</label>
+        <input type="radio" name="degree" id="BTech" value="BTech"><label for="BTech">BTech</label><br>
+        <input type="radio" name="degree" id="MTech" value="MTech"><label for="MTech">MTech</label>
+        <input type="radio" name="degree" id="PHD" value="PHD"><label for="PHD">PHD</label><br>
+        City:
+            <select name="city" id="city">
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="Goa">Goa</option>
+                <option value="Banglore">Banglore</option>
+                   
+            </select>
+            <button type="submit" name="btn" id="btn" value="register">Register me</button>
+</form>
+</body>
+</html>
